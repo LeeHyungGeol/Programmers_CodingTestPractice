@@ -54,22 +54,58 @@
     <ClCompile Include="Level1_크레인 인형뽑기 게임%282019 카카오 개발자 겨울 인턴십%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 마음대로 정렬하기(연습문제).cpp">
+    <ClCompile Include="Level1_문자열 내 p와 y의 개수%28연습문제%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내 p와 y의 개수(연습문제).cpp">
+    <ClCompile Include="Level1_문자열 내 마음대로 정렬하기%28연습문제%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 내림차순으로 배치하기(연습문제).cpp">
+    <ClCompile Include="Level1_문자열 내림차순으로 배치하기%28연습문제%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="문자열 다루기 기본(연습문제).cpp">
+    <ClCompile Include="Level1_문자열 다루기 기본%28연습문제%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="서울에서 김서방 찾기(연습문제).cpp">
+    <ClCompile Include="Level1_서울에서 김서방 찾기%28연습문제%29.cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="소수 찾기(연습문제).cpp">
+    <ClCompile Include="Level1_소수 찾기%28연습문제%29.cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_수박수박수박수박수박수%28연습문제%29.cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_ 내적(월간 코드 챌린지 시즌 1).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_약수의 합(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_시저 암호%28연습문제%29.cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_이상한 문자 만들기(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_자릿수 더하기(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_자연수 뒤집어 배열로 만들기(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_정수 내림차순으로 배치하기(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_정수 제곱근 판별(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_제일 작은 수 제거하기(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_짝수와 홀수(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_키패드 누르기(2020 카카오 인턴십).cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
   </ItemGroup>

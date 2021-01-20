@@ -1,4 +1,7 @@
-﻿  3진법 뒤집기(월간 코드 챌린지 시즌 1).cpp
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\3진법 뒤집기(월간 코드 챌린지 시즌 1).cpp(15,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\3진법 뒤집기(월간 코드 챌린지 시즌 1).cpp(16,35): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  Level1_키패드 누르기(2020 카카오 인턴십).cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(13,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(20,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(31,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(24): warning C4715: 'findX': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(17): warning C4715: 'findY': 모든 제어 경로에서 값을 반환하지는 않습니다.
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe
