@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\Level1">
       <UniqueIdentifier>{d38349af-9254-4466-aa8a-ea319f424ae2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2">
+      <UniqueIdentifier>{ce7a7f83-b736-43e7-9691-d824c2e5a02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level2\스택/큐">
+      <UniqueIdentifier>{214b4a72-2257-4f6f-a70e-f8021aae5539}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -107,6 +113,30 @@
     </ClCompile>
     <ClCompile Include="Level1_키패드 누르기(2020 카카오 인턴십).cpp">
       <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_최대공약수와 최소공배수(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_콜라츠 추측(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_하샤드 수(연습문제).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_[1차] 비밀지도(2018 KAKAO BLIND RECRUITMENT).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_실패율(2019 KAKAO BLIND RECRUITMENT).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_[1차] 다트 게임(2018 KAKAO BLIND RECRUITMENT).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택,큐_프린터.cpp">
+      <Filter>소스 파일\Level2\스택/큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

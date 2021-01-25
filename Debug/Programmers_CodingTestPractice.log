@@ -1,7 +1,3 @@
-﻿  Level1_키패드 누르기(2020 카카오 인턴십).cpp
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(13,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(20,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(31,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(24): warning C4715: 'findX': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_키패드 누르기(2020 카카오 인턴십).cpp(17): warning C4715: 'findY': 모든 제어 경로에서 값을 반환하지는 않습니다.
+﻿  Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp(16,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe
