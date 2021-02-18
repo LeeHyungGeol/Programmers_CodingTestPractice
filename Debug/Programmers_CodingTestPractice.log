@@ -1,3 +1,5 @@
-﻿  Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp(16,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  Level2_스택,큐_기능개발.cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_스택,큐_기능개발.cpp(9,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_스택,큐_기능개발.cpp(34,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_스택,큐_기능개발.cpp(37,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe

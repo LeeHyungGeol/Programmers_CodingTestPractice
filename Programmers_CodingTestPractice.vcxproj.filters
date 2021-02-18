@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Level2\스택/큐">
       <UniqueIdentifier>{214b4a72-2257-4f6f-a70e-f8021aae5539}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT">
+      <UniqueIdentifier>{2ee791a0-b839-4be4-a5f7-700f210ddb05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -137,6 +140,12 @@
     </ClCompile>
     <ClCompile Include="Level2_스택,큐_프린터.cpp">
       <Filter>소스 파일\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택,큐_기능개발.cpp">
+      <Filter>소스 파일\Level2\스택/큐</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 뉴스 클러스터링.cpp">
+      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
