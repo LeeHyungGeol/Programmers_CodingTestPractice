@@ -147,5 +147,8 @@
     <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 뉴스 클러스터링.cpp">
       <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_124 나라의 숫자.cpp">
+      <Filter>소스 파일\Level2\스택/큐</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
