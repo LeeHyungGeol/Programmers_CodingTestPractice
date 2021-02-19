@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT">
       <UniqueIdentifier>{2ee791a0-b839-4be4-a5f7-700f210ddb05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2\Summer/Winter Coding%28~2018%29">
+      <UniqueIdentifier>{d76d5c30-ad93-4b11-9001-8852de9c9f9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -147,7 +150,13 @@
     <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 뉴스 클러스터링.cpp">
       <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_Summer, Winter Coding(~2018)_스킬트리.cpp">
+      <Filter>소스 파일\Level2\Summer/Winter Coding%28~2018%29</Filter>
+    </ClCompile>
     <ClCompile Include="Level2_124 나라의 숫자.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
       <Filter>소스 파일\Level2\스택/큐</Filter>
     </ClCompile>
   </ItemGroup>
