@@ -162,5 +162,8 @@
     <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 캐시.cpp">
       <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[3차] 방금그곡.cpp">
+      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
