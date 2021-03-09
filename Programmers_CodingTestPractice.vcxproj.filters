@@ -189,5 +189,8 @@
     <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -289,7 +289,10 @@
     <ClCompile Include="Level2_스택,큐_프린터.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp" />
+    <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
