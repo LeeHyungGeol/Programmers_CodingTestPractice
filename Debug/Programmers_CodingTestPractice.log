@@ -1,3 +1,7 @@
-﻿  Level2_[3차] n진수 게임_2018 KAKAO BLIND RECRUITMENT.cpp
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_[3차] n진수 게임_2018 KAKAO BLIND RECRUITMENT.cpp(32,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+﻿  Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp(24,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp(32,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp(34,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp(36,27): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp(50,35): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe

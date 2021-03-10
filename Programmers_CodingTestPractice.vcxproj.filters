@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT">
       <UniqueIdentifier>{692618bc-4773-48c0-9845-3e3341c91e96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT">
+      <UniqueIdentifier>{1c3cd072-d06a-4d3d-8b02-64c82d2c0381}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -191,6 +194,9 @@
     </ClCompile>
     <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
