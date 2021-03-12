@@ -283,6 +283,7 @@
     <ClCompile Include="Level2_문자열 압축_2020 KAKAO BLIND RECRUITMENT.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Level2_순위 검색_2021 KAKAO BLIND RECRUITMENT.cpp" />
     <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

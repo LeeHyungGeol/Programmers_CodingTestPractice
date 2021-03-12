@@ -198,5 +198,8 @@
     <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_순위 검색_2021 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
