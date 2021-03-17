@@ -207,5 +207,11 @@
     <ClCompile Include="Level2_삼각달팽이_월간 코드 챌린지 시즌 1.cpp">
       <Filter>소스 파일\Level2\월간 코드 챌린지 시즌 1</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_완전 탐색을 이용한 조합.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_소수 찾기.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
