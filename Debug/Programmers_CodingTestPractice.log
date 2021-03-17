@@ -1,2 +1,5 @@
-﻿  Level2_완전 탐색을 이용한 조합.cpp
+﻿  Level2_소수 찾기.cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(41,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(46,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(53,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe

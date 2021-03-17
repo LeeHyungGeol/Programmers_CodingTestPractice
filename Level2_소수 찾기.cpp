@@ -1,14 +1,17 @@
+//https://mjmjmj98.tistory.com/38
+//#include <algorithm>의 next_permutation() 함수 사용
+//do{} while(vector.begin(), vector.end());
+//1. 오름차순으로 정렬된 값을 가진 컨테이너로만 사용가능합니다.
+//2. default로 operator < 를 사용해 순열을 생성합니다.즉 오름차순으로 순열을 생성합니다.
+//3. 중복이 있는 원소들은 중복을 제외하고 순열을 만들어줍니다.
 #include <string>
 #include <vector>
+#include <algorithm>
 #include <iostream>
-
 using namespace std;
-int N, K;
-vector<int> choice;
-vector<int> arr;
-vector<int> totalCase;
 
 bool isPrimeNumber(int x) {
+    if (x < 2) return false;
     for (int i = 2; i * i <= x; i++) {
         if (x % i == 0) {
             return false;
@@ -16,43 +19,32 @@ bool isPrimeNumber(int x) {
     }
     return true;
 }
-void comb(int n, int idx) {
-    if (idx > K) {
-        string s;
-        for (int i = 1; i <= K; ++i) {
-            s += to_string(choice[i]);
-            cout << "s : " << s << ", choice[i] : " << choice[i] << ' ';
-        }
-        cout << '\n' << s << '\n';
-        totalCase.push_back(stoi(s));
-        return;
-    }
-    if (n > N) return;
-    choice[idx] = arr[n];
-    comb(n + 1, idx + 1);
-    comb(n + 1, idx);
-}
+
 int solution(string numbers) {
     int answer = 0;
-    N = numbers.size();
-    arr.resize(N + 1, 0);
-    choice.resize(N + 1);
-    cout << N << '\n';
-    for (int i = 1; i <= numbers.size(); ++i) {
-        arr[i] = numbers[i - 1];
-        cout << " i : " << i << ", arr[i] : " << arr[i] << ", numbers[i-1] : " << numbers[i - 1] << ' ';
-    }
-    cout << '\n';
-    for (int k = 1; k <= numbers.size(); ++k) {
-        K = k;
-        comb(1, 1);
-        cout << K << '\n';
-        choice.clear();
-        choice.resize(N + 1);
-    }
-    for (int i = 0; i < totalCase.size(); ++i) {
-        if (isPrimeNumber(totalCase[i])) ++answer;
-    }
+    vector<int> arr;
+    vector<int> ans;
+    for (int i = 0; i < numbers.size(); ++i) arr.push_back(numbers[i] - '0');
+    sort(arr.begin(), arr.end());
+    do {
+        for (int i = 0; i <= arr.size(); i++) {
+            int tmp = 0;
+            for (int j = 0; j < i; j++) {
+                tmp = (tmp * 10) + arr[j];
+                cout << " tmp : " << tmp << ", arr[j] : " << arr[j] << '\n';
+                ans.push_back(tmp);
+            }
+        }
+    } while (next_permutation(arr.begin(), arr.end()));
+    sort(ans.begin(), ans.end());
+    ans.erase(unique(ans.begin(), ans.end()), ans.end());
+    for (int i = 0; i < ans.size(); ++i) if (isPrimeNumber(ans[i])) answer++;
 
     return answer;
+}
+int main() {
+    string numbers = "17";
+    cout << solution(numbers) << '\n';
+
+    return 0;
 }
