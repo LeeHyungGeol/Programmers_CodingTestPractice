@@ -35,4 +35,8 @@ while(iter != map.begin()) {
 
 vector.assign(map.begin(), map.end());
 
+### map과 vector의 혼합체
+
+map<string, vector<pair<int, int>>> mapVectorPair;
+mapVectorPair[String].push_back({Int, Int});
 
