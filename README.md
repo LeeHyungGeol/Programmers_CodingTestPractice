@@ -17,6 +17,18 @@ ex) map<string, int> map;
 - **Ordered** - map도 set과 마찬가지로 삽입이 되면서 **자동으로 정렬**이 됩니다. (default는 less/오름차순 입니다.)
 - **Allocator-aware** - map container는 저장공간의 필요에 따라서 allocator 객체를 사용합니다. (동적할당 합니다.)
 
-
 출처: https://blockdmask.tistory.com/87 [개발자 지망생]
+
+### map 역순회
+
+```c++
+auto iter = map.end(); 
+
+while(iter != map.begin()) { 
+  iter--; 
+  cout << iter->second << '\n'; 
+}
+
+```
+
 
