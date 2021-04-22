@@ -54,7 +54,15 @@ vector.assign(map.begin(), map.end());
 
 ### map과 vector의 혼합체
 
+```c++
 map<string, vector<pair<int, int>>> mapVectorPair;
 
 mapVectorPair[String].push_back({Int, Int});
+
+//map안의 vector : sort도 가능
+
+ for(auto iter = mapVectorPair.begin(); iter != mapVectorPair.end(); ++iter) {
+      sort(iter->second.begin(), iter->second.end(), compare);
+ }
+ ```
 
