@@ -31,4 +31,8 @@ while(iter != map.begin()) {
 
 ```
 
+### map -> vector
+
+vector.assign(map.begin(), map.end());
+
 
