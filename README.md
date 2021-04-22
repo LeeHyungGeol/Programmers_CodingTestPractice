@@ -9,6 +9,8 @@
 
 ## map
 
+ex) map<string, int> map;
+
 - 노드 기반으로 이루어져있고 **균형 이진 트리 구조**입니다.
 - **Map** - map은 key와 value로 이루어져있으며 이는 pair 객체 형태로 저장됩니다.
 - **Unique Key** - key는 고유한 값이므로 중복이 불가능 합니다. (중복 key는 multimap 에서 가능합니다.)
