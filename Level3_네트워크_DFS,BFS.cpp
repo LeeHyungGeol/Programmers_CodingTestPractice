@@ -12,7 +12,7 @@ int dfs(vector<vector<int>>& graph, int cur) {
     for (int i = 0; i < graph[cur].size(); ++i) {
         int next = graph[cur][i];
         if (!visited[i] && next == 1) {
-            nodes += dfs(graph, next);
+            nodes += dfs(graph, i);
         }
     }
     return nodes;
@@ -35,16 +35,7 @@ int solution(int n, vector<vector<int>> computers) {
 
     visited.resize(n, false);
 
-    int components = 0;
-    for (int i = 0; i < n; ++i) {
-        if (!visited[i]) {
-            int nodes = dfs(computers, i);
+    answer = getComponents(computers, n);
 
-            cout << "components size : " << nodes << '\n';
-
-            components++;
-        }
-    }
-
-    return components;
+    return answer;
 }
