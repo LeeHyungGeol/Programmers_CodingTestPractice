@@ -13,6 +13,9 @@
 
 ```c++
 ex)
+
+typedef pair<int, int> pii;
+
 bool compare(pii& a, pii& b) {
     if(a.first == b.first) {
       return a.second < b.second;
