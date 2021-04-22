@@ -228,5 +228,8 @@
     <ClCompile Include="Level2_위장_해시.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_베스트 앨범_해시.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
