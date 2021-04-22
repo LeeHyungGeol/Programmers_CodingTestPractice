@@ -24,6 +24,18 @@ bool compare(pii& a, pii& b) {
 }
 ```
 
+### vector.resize() 주의할 점
+
+```c++
+    vector<int> vec(5, 1); // 1 1 1 1 1
+
+	vec.resize(10, 2);// 1 1 1 1 1 2 2 2 2 2
+
+	vec.resize(3, 3);// 1 1 1
+    
+    // resize 하면 더 커지는 경우에만 값이 입력된다.
+```
+
 ## map
 
 ex) map<string, int> map;
@@ -65,4 +77,3 @@ mapVectorPair[String].push_back({Int, Int});
       sort(iter->second.begin(), iter->second.end(), compare);
  }
  ```
-
