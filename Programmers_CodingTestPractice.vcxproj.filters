@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\Level2\월간 코드 챌린지 시즌 1">
       <UniqueIdentifier>{26a28a7a-8321-4b8e-be63-af3cf9bd4392}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level3">
+      <UniqueIdentifier>{b2b76410-83e2-4a62-b8f9-85cad1ab0505}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -228,8 +231,11 @@
     <ClCompile Include="Level2_위장_해시.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_베스트 앨범_해시.cpp">
-      <Filter>소스 파일\Level2</Filter>
+    <ClCompile Include="Level3_베스트 앨범_해시.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3_네트워크_DFS,BFS.cpp">
+      <Filter>소스 파일\Level3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
