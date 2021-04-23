@@ -237,5 +237,8 @@
     <ClCompile Include="Level3_네트워크_DFS,BFS.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="Level2_H-Index_정렬.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
