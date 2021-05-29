@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\Level3">
       <UniqueIdentifier>{b2b76410-83e2-4a62-b8f9-85cad1ab0505}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level4">
+      <UniqueIdentifier>{49de0184-46a2-41ed-bd56-f3442d974e79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Level1_3진법 뒤집기%28월간 코드 챌린지 시즌 1%29.cpp">
@@ -242,6 +245,12 @@
     </ClCompile>
     <ClCompile Include="Level3_단어 변환_DFS,BFS.cpp">
       <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3_여행경로_DFS,BFS.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 4] 가사 검색.cpp">
+      <Filter>소스 파일\Level4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
