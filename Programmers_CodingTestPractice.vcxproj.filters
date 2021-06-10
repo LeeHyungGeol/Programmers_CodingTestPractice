@@ -195,9 +195,6 @@
     <ClCompile Include="Level2_문자열 압축_2020 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_괄호 변환_2020 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
@@ -251,6 +248,9 @@
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 4] 가사 검색.cpp">
       <Filter>소스 파일\Level4</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 괄호 변환.cpp">
+      <Filter>소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

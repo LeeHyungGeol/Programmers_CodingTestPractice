@@ -1,5 +1,2 @@
-﻿  Level2_소수 찾기.cpp
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(41,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(46,23): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\Level2_소수 찾기.cpp(53,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  [프로그래머스 레벨 2] 괄호 변환.cpp
   Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe
