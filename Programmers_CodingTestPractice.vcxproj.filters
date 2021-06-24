@@ -19,27 +19,6 @@
     <Filter Include="소스 파일\Level2">
       <UniqueIdentifier>{ce7a7f83-b736-43e7-9691-d824c2e5a02e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Level2\스택/큐">
-      <UniqueIdentifier>{214b4a72-2257-4f6f-a70e-f8021aae5539}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT">
-      <UniqueIdentifier>{2ee791a0-b839-4be4-a5f7-700f210ddb05}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\Summer/Winter Coding%28~2018%29">
-      <UniqueIdentifier>{d76d5c30-ad93-4b11-9001-8852de9c9f9c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT">
-      <UniqueIdentifier>{22f08a30-90e4-4334-b8e7-6f188d960fa3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT">
-      <UniqueIdentifier>{692618bc-4773-48c0-9845-3e3341c91e96}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT">
-      <UniqueIdentifier>{1c3cd072-d06a-4d3d-8b02-64c82d2c0381}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Level2\월간 코드 챌린지 시즌 1">
-      <UniqueIdentifier>{26a28a7a-8321-4b8e-be63-af3cf9bd4392}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Level3">
       <UniqueIdentifier>{b2b76410-83e2-4a62-b8f9-85cad1ab0505}</UniqueIdentifier>
     </Filter>
@@ -159,56 +138,8 @@
     <ClCompile Include="Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_스택,큐_프린터.cpp">
-      <Filter>소스 파일\Level2\스택/큐</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_스택,큐_기능개발.cpp">
-      <Filter>소스 파일\Level2\스택/큐</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 뉴스 클러스터링.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_Summer, Winter Coding(~2018)_스킬트리.cpp">
-      <Filter>소스 파일\Level2\Summer/Winter Coding%28~2018%29</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_124 나라의 숫자.cpp">
       <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
-      <Filter>소스 파일\Level2\스택/큐</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 캐시.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[3차] 방금그곡.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_[3차] 압축_2018 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_[3차] 파일명 정렬_2018 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_[3차] n진수 게임_2018 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2018 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_문자열 압축_2020 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2019 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_순위 검색_2021 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2\2021 KAKAO BLIND RECRUITMENT</Filter>
-    </ClCompile>
-    <ClCompile Include="Level2_삼각달팽이_월간 코드 챌린지 시즌 1.cpp">
-      <Filter>소스 파일\Level2\월간 코드 챌린지 시즌 1</Filter>
     </ClCompile>
     <ClCompile Include="Level2_완전 탐색을 이용한 조합.cpp">
       <Filter>소스 파일\Level2</Filter>
@@ -249,8 +180,56 @@
     <ClCompile Include="[프로그래머스 레벨 4] 가사 검색.cpp">
       <Filter>소스 파일\Level4</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 문자열 압축.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 괄호 변환.cpp">
-      <Filter>소스 파일\Level2\2020 KAKAO BLIND RECRUITMENT</Filter>
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_삼각달팽이_월간 코드 챌린지 시즌 1.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택,큐_프린터.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택,큐_기능개발.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_Summer, Winter Coding(~2018)_스킬트리.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_순위 검색_2021 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[3차] 방금그곡.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 캐시.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[1차] 뉴스 클러스터링.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_[3차] 파일명 정렬_2018 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_[3차] 압축_2018 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2_[3차] n진수 게임_2018 KAKAO BLIND RECRUITMENT.cpp">
+      <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
