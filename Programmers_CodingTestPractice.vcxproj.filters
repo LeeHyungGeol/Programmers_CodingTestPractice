@@ -231,5 +231,8 @@
     <ClCompile Include="Level2_[3차] n진수 게임_2018 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 3] 자물쇠와 열쇠.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
