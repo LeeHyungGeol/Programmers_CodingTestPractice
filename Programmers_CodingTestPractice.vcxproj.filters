@@ -246,5 +246,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 더 맵게.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="C++_StringStream 활용법.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
