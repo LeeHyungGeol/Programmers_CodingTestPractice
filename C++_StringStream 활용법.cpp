@@ -24,6 +24,8 @@ int main() {
 
 		cout << num << " " << name << " " << score << endl;
 		// 이후 필요한 자료 구조에 저장하여 활용한다.
+
+		ss.clear();
 	}
 
 	return 0;

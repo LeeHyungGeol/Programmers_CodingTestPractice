@@ -210,9 +210,6 @@
     <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_오픈채팅방_2019 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_2018 KAKAO BLIND RECRUITMENT_[3차] 방금그곡.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -247,6 +244,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="C++_StringStream 활용법.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 오픈 채팅방.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
