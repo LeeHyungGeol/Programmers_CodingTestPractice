@@ -240,5 +240,8 @@
     <ClCompile Include="순열(permutation) 구현.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 단체사진 찍기.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
