@@ -234,5 +234,8 @@
     <ClCompile Include="[프로그래머스 레벨 3] 자물쇠와 열쇠.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 3] 기둥과 보 설치.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
