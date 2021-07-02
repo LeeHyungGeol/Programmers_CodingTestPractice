@@ -189,9 +189,6 @@
     <ClCompile Include="Level2_스택,큐_프린터.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_스택,큐_기능개발.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -253,6 +250,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 멀쩡한 사각형.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 기능 개발.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
