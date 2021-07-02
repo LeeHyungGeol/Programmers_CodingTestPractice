@@ -24,26 +24,18 @@ string solution(int n) {
 string solution2(int n) {
     string answer = "";
 
-    while (n > 3) {
+    while (n > 0) {
         int temp = n % 3;
         if (temp == 0) {
-            answer += "4";
+            answer = "4" + answer;
             n = n / 3 - 1;
         }
         else {
-            answer += to_string(n % 3);
+            // 이런 방식으로 문자열을 이어 붙이면 reverse() 를 쓰지 않아도 된다.
+            answer = to_string(n % 3) + answer;
             n /= 3;
         }
     }
-
-    if (n == 3) {
-        answer += "4";
-    }
-    else {
-        answer += to_string(n);
-    }
-
-    reverse(answer.begin(), answer.end());
 
     return answer;
 }
