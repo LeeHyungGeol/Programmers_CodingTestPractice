@@ -138,9 +138,6 @@
     <ClCompile Include="Level1_신규 아이디 추천(2021 KAKAO BLIND RECRUITMENT).cpp">
       <Filter>소스 파일\Level1</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_124 나라의 숫자.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_완전 탐색을 이용한 조합.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -250,6 +247,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 짝지어 제거하기.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 124나라의 숫자.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
