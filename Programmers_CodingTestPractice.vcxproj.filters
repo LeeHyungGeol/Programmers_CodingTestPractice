@@ -258,5 +258,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 타겟 넘버.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 카카오프렌즈 컬러링북.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
