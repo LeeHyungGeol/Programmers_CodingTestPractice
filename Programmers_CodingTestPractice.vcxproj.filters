@@ -255,5 +255,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 기능 개발.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 1] 로또의 최고 순위와 최저 순위.cpp">
+      <Filter>소스 파일\Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
