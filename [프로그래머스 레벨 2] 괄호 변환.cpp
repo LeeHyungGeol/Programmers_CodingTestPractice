@@ -8,13 +8,14 @@
 
 using namespace std;
 
-int isBalanced(string s);
-bool isProper(string s);
+int isBalanced(string str);
+bool isProper(string str);
 
 string solution(string p) {
     string answer = "";
-    if (p == "") {
-        return p;
+
+    if (p.size() == 0) {
+        return answer;
     }
     int index = isBalanced(p);
     string u = p.substr(0, index + 1);
@@ -24,9 +25,10 @@ string solution(string p) {
         return u + solution(v);
     }
     else {
-        string tmp = "(";
-        tmp += solution(v);
-        tmp += ")";
+        answer += "(";
+        answer += solution(v);
+        answer += ")";
+
         u = u.substr(1, u.size() - 2);
         for (int i = 0; i < u.size(); ++i) {
             if (u[i] == '(') {
@@ -36,44 +38,42 @@ string solution(string p) {
                 u[i] = '(';
             }
         }
-        tmp += u;
-        return tmp;
+
+        answer += u;
+        return answer;
     }
-    //return answer;
 }
 
-int isBalanced(string s) {
-    int count = 0;
+int isBalanced(string str) {
+    int cnt = 0;
 
-    for (int i = 0; i < s.size(); ++i) {
-        if (s[i] == '(') {
-            ++count;
+    for (int i = 0; i < str.size(); ++i) {
+        if (str[i] == '(') {
+            ++cnt;
         }
         else {
-            --count;
+            --cnt;
         }
-        if (count == 0) {
+        if (cnt == 0) {
             return i;
         }
     }
-
-    // return -1;
 }
 
-bool isProper(string s) {
-    int count = 0;
+bool isProper(string str) {
+    int cnt = 0;
 
-    for (int i = 0; i < s.size(); ++i) {
-        if (s[i] == '(') {
-            ++count;
+    for (int i = 0; i < str.size(); ++i) {
+        if (str[i] == '(') {
+            ++cnt;
         }
         else {
-            if (count == 0) {
-                return false;
+            --cnt;
+            if (cnt == 0) {
+                return true;
             }
-            --count;
         }
     }
 
-    return true;
+    return false;
 }
