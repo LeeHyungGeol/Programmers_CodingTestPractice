@@ -346,7 +346,7 @@
     <ClCompile Include="Level2_위장_해시.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Level2_전화번호 목록_해시.cpp">
+    <ClCompile Include="[프로그래머스 레벨 2] 전화번호 목록.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Level2_카펫_완전탐색.cpp">

@@ -150,9 +150,6 @@
     <ClCompile Include="Level2_가장 큰 수_정렬.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_전화번호 목록_해시.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_위장_해시.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -271,6 +268,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 조이스틱.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 전화번호 목록.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
