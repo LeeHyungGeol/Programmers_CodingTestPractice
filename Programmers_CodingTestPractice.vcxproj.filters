@@ -270,5 +270,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 게임 맵 최단거리.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 조이스틱.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
