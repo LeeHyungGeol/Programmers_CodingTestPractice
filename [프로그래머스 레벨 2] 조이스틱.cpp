@@ -8,6 +8,9 @@
 // a = i, b = n - ind
 // -> step = min(step, i + n - ind + min(i, n - ind));
 
+// https://unglog.tistory.com/8
+// https://4z7l.github.io/2021/03/12/algorithms-prg-42860.html
+
 #include <string>
 #include <vector>
 #include <algorithm>
