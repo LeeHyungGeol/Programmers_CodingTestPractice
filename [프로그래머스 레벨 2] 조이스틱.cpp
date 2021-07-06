@@ -8,8 +8,10 @@
 // a = i, b = n - ind
 // -> step = min(step, i + n - ind + min(i, n - ind));
 
+// 참고 : 
 // https://unglog.tistory.com/8
 // https://4z7l.github.io/2021/03/12/algorithms-prg-42860.html
+// [백준 골드 3] 3663번 : 고득점 문제와 완전 똑같다. 같이 풀어보는 것을 추천한다.
 
 #include <string>
 #include <vector>
