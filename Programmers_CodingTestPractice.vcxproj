@@ -292,7 +292,7 @@
     <ClCompile Include="[프로그래머스 레벨 2] 괄호 변환.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
+    <ClCompile Include="[프로그래머스 레벨 2] 메뉴 리뉴얼.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 괄호 회전하기.cpp">

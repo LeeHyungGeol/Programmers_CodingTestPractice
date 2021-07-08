@@ -192,9 +192,6 @@
     <ClCompile Include="Level2_순위 검색_2021 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_메뉴 리뉴얼_2021 KAKAO BLIND RECRUITMENT.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_후보키_2019 KAKAO BLIND RECRUITMENT.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -277,6 +274,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 튜플.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 메뉴 리뉴얼.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>
