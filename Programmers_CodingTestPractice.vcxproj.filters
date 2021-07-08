@@ -276,5 +276,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 괄호 회전하기.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 튜플.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
