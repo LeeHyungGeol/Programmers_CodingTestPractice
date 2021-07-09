@@ -279,5 +279,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 메뉴 리뉴얼.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 올바른 괄호.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
