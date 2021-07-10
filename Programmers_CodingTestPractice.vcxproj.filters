@@ -159,9 +159,6 @@
     <ClCompile Include="Level3_네트워크_DFS,BFS.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_H-Index_정렬.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level3_단어 변환_DFS,BFS.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
@@ -286,6 +283,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 큰 수 만들기.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] H-Index.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>

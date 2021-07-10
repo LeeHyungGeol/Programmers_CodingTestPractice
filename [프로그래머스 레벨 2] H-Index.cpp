@@ -3,22 +3,32 @@
 #include <algorithm>
 
 using namespace std;
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
 
 int solution(vector<int> citations) {
     int answer = 0;
-    int maxCitation = 0;
+    int n = citations.size();
 
-    for (int h = 1; h <= citations.size(); ++h) {
-        int count = 0;
+    sort(citations.begin(), citations.end());
 
-        for (int j = 0; j < citations.size(); ++j) {
-            if (citations[j] >= h) {
-                count++;
+    int h = 1, cnt = 0;
+
+    for (int h = 1; h <= n; ++h) {
+        for (int j = 0; j < n; ++j) {
+            if (h <= citations[j]) {
+                ++cnt;
             }
         }
-        if (count >= h) {
-            answer = max(answer, h);
+
+        if (cnt >= h && n - cnt <= h) {
+            answer = h;
         }
+
+        cnt = 0;
     }
 
     return answer;
