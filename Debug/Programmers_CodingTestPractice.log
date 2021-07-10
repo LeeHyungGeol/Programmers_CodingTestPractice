@@ -1,2 +1,4 @@
-﻿  [프로그래머스 레벨 2] 행렬 테두리 회전하기.cpp
-  Programmers_CodingTestPractice.vcxproj -> C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe
+﻿  [프로그래머스 레벨 2] 프린터.cpp
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Programmers_CodingTestPractice\[프로그래머스 레벨 2] 프린터.cpp(15,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\LeeHyungGeol\source\repos\Programmers_CodingTestPractice\Debug\Programmers_CodingTestPractice.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

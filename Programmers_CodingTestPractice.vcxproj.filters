@@ -180,9 +180,6 @@
     <ClCompile Include="Level2_삼각달팽이_월간 코드 챌린지 시즌 1.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
-    <ClCompile Include="Level2_스택,큐_프린터.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="Level2_스택, 큐_주식가격.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -280,6 +277,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 올바른 괄호.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 프린터.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>

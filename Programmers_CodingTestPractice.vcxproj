@@ -334,7 +334,7 @@
     <ClCompile Include="[프로그래머스 레벨 2] 기능 개발.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Level2_스택,큐_프린터.cpp">
+    <ClCompile Include="[프로그래머스 레벨 2] 프린터.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 예상 대진표.cpp">
