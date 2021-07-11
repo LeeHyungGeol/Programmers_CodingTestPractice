@@ -352,7 +352,7 @@
     <ClCompile Include="Level2_완전 탐색을 이용한 조합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Level2_위장_해시.cpp">
+    <ClCompile Include="[프로그래머스 레벨 2] 위장.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 올바른 괄호.cpp">

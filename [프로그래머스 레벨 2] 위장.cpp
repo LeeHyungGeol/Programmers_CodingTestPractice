@@ -6,17 +6,16 @@ using namespace std;
 
 int solution(vector<vector<string>> clothes) {
     int answer = 1;
-
-    map<string, int> m;
+    map<string, vector<string>> map;
 
     // 옷을 종류(상의, 하의, 겉옷...)를 map의 key로 하여 세어준다.
-    for (int i = 0; i < clothes.size(); ++i) {
-        m[clothes[i][1]]++;
+    for (auto cloth : clothes) {
+        map[cloth[1]].push_back(cloth[0]);
     }
 
     // 옷의 종류 + 1로 모든 경우의 수를 구한다.(+ 1을 해주는 이유는 아무것도 선택하지 않을 경우의 수를 추가한 것)
-    for (auto iter = m.begin(); iter != m.end(); ++iter) {
-        answer *= iter->second + 1;
+    for (auto m : map) {
+        answer *= m.second.size() + 1;
     }
 
     // 모든 종류의 옷을 한가지도 선택하지 않은 경우의 수 1을 뺀 것이 answer이다.
