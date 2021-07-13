@@ -210,9 +210,6 @@
     <ClCompile Include="[프로그래머스 레벨 3] 기둥과 보 설치.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
-    <ClCompile Include="순열(permutation) 구현.cpp">
-      <Filter>소스 파일\Level2</Filter>
-    </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 단체사진 찍기.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
@@ -286,6 +283,9 @@
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
     <ClCompile Include="[프로그래머스 레벨 2] 위장.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="C++_순열%28permutation%29 구현.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
   </ItemGroup>

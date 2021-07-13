@@ -397,7 +397,7 @@
     <ClCompile Include="[프로그래머스 레벨 4] 가사 검색.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="순열(permutation) 구현.cpp">
+    <ClCompile Include="C++_순열%28permutation%29 구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
