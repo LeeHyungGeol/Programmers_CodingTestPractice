@@ -286,6 +286,7 @@
     <ClCompile Include="Level2_가장 큰 수_정렬.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 가장 큰 정사각형 찾기.cpp" />
     <ClCompile Include="[프로그래머스 레벨 2] 게임 맵 최단거리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
