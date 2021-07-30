@@ -303,5 +303,8 @@
     <ClCompile Include="[프로그래머스 레벨 3] 합승 택시 요금.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 레벨 2] 순위 검색.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
