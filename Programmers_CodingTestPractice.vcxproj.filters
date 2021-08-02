@@ -306,5 +306,8 @@
     <ClCompile Include="[프로그래머스 레벨 2] 순위 검색.cpp">
       <Filter>소스 파일\Level2</Filter>
     </ClCompile>
+    <ClCompile Include="[프로그래머스 위클래 칠린지 1주차] 부족한 금액 계산하기.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
