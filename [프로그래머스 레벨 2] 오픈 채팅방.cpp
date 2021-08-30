@@ -1,49 +1,53 @@
-// 해쉬(map) + stringstream 문제
-// stringstream 을 활용하는 문제이다.
-// 공백 또는 자료형이 섞인 문자열에서 유용하게 쓰일 수 있다.
+// 문자열, Map(해쉬), stringstream문제
+
 // stringstream ss; 
 // ss.str(targetString); 
+// 공백 또는 자료형이 섞인 문자열에서 유용하게 쓰일 수 있다.
 
 #include <string>
 #include <vector>
 #include <map>
 #include <sstream>
+#include <iostream>
 
 using namespace std;
 
+map<string, string> Map;
+stringstream SS;
+
 vector<string> solution(vector<string> record) {
     vector<string> answer;
-    map<string, string> map;
-    vector<string> uids;
-    stringstream ss;
 
-    for (auto r : record) {
-        ss.str(r);
-        string cases, uid, name;
-        ss >> cases;
+    for (string info : record) {
+        SS.str(info);
+        string cmd, uid, nickname;
 
-        if (cases == "Enter") {
-            ss >> uid;
-            ss >> name;
-            map[uid] = name;
-            uids.push_back(uid);
-            answer.push_back("님이 들어왔습니다.");
+        SS >> cmd;
+
+        if (cmd == "Enter" || cmd == "Change") {
+            SS >> uid >> nickname;
+            Map[uid] = nickname;
         }
-        else if (cases == "Change") {
-            ss >> uid;
-            ss >> name;
-            map[uid] = name;
-        }
-        else if (cases == "Leave") {
-            ss >> uid;
-            uids.push_back(uid);
-            answer.push_back("님이 나갔습니다.");
-        }
-        ss.clear();
+
+        SS.clear();
     }
 
-    for (int i = 0; i < answer.size(); ++i) {
-        answer[i] = map[uids[i]] + answer[i];
+    for (string info : record) {
+        SS.str(info);
+        string cmd, uid, nickname;
+
+        SS >> cmd;
+
+        if (cmd == "Enter") {
+            SS >> uid;
+            answer.push_back(Map[uid] + "님이 들어왔습니다.");
+        }
+        else if (cmd == "Leave") {
+            SS >> uid;
+            answer.push_back(Map[uid] + "님이 나갔습니다.");
+        }
+
+        SS.clear();
     }
 
     return answer;
