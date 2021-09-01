@@ -79,3 +79,57 @@ bool compare(const psi& a, const psi& b) {
     }
     return a.second > b.second;
 }
+
+//-----------------------2번째 풀이--------------------------//
+
+#include <string>
+#include <vector>
+#include <map>
+#include <algorithm>
+#include <iostream>
+
+using namespace std;
+
+typedef pair<string, int> psi;
+
+map<string, int> Map;
+vector<int> Count(11, 0);
+
+void dfs(int startIndex, int cnt, int length, string order, string temp);
+
+vector<string> solution(vector<string> orders, vector<int> course) {
+    vector<string> answer;
+
+    for (string order : orders) {
+        sort(order.begin(), order.end());
+
+        for (int length : course) {
+            string temp = "";
+            dfs(0, 0, length, order, temp);
+        }
+    }
+
+    for (auto m : Map) {
+        if (m.second >= 2 && m.second == Count[m.first.length()]) {
+            answer.push_back(m.first);
+        }
+    }
+
+    sort(answer.begin(), answer.end());
+
+    return answer;
+}
+
+void dfs(int startIndex, int cnt, int length, string order, string temp) {
+    if (cnt == length) {
+        ++Map[temp];
+        Count[length] = max(Count[length], Map[temp]);
+        return;
+    }
+
+    for (int i = startIndex; i < order.size(); ++i) {
+        temp.push_back(order[i]);
+        dfs(i + 1, cnt + 1, length, order, temp);
+        temp.pop_back();
+    }
+}
