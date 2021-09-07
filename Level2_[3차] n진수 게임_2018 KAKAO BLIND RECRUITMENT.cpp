@@ -1,4 +1,56 @@
-//n진법을 구하는 문제
+// n진법을 구하는 문제
+
+// n진수를 구할 때, number배열을 이용하면 편하다.
+
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+vector<string> Numbers = { "0","1","2","3","4","5","6","7","8","9", "A", "B", "C", "D", "E", "F" };
+
+string changeNum(int num, int n) {
+    string temp = "";
+
+    if (num == 0) {
+        temp += Numbers[num];
+        return temp;
+    }
+
+    while (num) {
+        temp += Numbers[num % n];
+        num /= n;
+
+    }
+
+    reverse(temp.begin(), temp.end());
+
+    return temp;
+}
+
+string solution(int n, int t, int m, int p) {
+    string answer = "";
+    string numList = "";
+
+    for (int i = 0; i <= m * t; ++i) {
+        string num = changeNum(i, n);
+        numList += num;
+    }
+
+    for (int i = p; i <= numList.size(); i += m, --t) {
+        if (t == 0) {
+            break;
+        }
+        answer += numList[i - 1];
+    }
+
+    return answer;
+}
+
+
+//-----------------예전 풀이-------------------//
+
 #include <string>
 #include <vector>
 #include <algorithm>
