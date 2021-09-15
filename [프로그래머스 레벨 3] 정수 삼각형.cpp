@@ -27,13 +27,11 @@ int solution1(vector<vector<int>> triangle) {
 
 // ╧ыер╬В ╧Ф╫д(bottom-up)
 int solution2(vector<vector<int>> triangle) {
-    int answer = triangle[0][0];
-    int n = triangle.size();
+    int answer = 0;
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < triangle.size(); ++i) {
         for (int j = 0; j < triangle[i].size(); ++j) {
-            int left;
-            int right;
+            int left, right;
 
             if (j - 1 < 0) {
                 left = 0;
@@ -41,7 +39,7 @@ int solution2(vector<vector<int>> triangle) {
             else {
                 left = triangle[i - 1][j - 1];
             }
-            if (i - 1 < j) {
+            if (j == triangle[i].size() - 1) {
                 right = 0;
             }
             else {
@@ -52,8 +50,8 @@ int solution2(vector<vector<int>> triangle) {
         }
     }
 
-    for (int i = 0; i < n; ++i) {
-        answer = max(answer, triangle[n - 1][i]);
+    for (int i = 0; i < triangle.size(); ++i) {
+        answer = max(answer, triangle[triangle.size() - 1][i]);
     }
 
     return answer;
