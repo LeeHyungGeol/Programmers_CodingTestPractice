@@ -1,46 +1,51 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <algorithm>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
-typedef pair<int, int> pii;
-typedef pair<string, int> psi;
+typedef struct Info {
+    int playCount, index;
+}Info;
+map<string, vector<Info>> GenreCount;
+map<string, int> totalPlayCount;
+map<int, string> MaxCount;
+vector<int> Temp;
 
-bool compare(pii& a, pii& b) {
-    return a.first > b.first;
-}
-
-bool comp(psi& a, psi& b) {
-    return a.second > b.second;
-}
+bool compare(const Info& a, const Info& b);
 
 vector<int> solution(vector<string> genres, vector<int> plays) {
     vector<int> answer;
-    map<string, vector<pii>> countGenresPlaysUniqueNumbers;
-    map<string, int> countPlays;
-    vector<psi> vectorCountPlays;
 
     for (int i = 0; i < genres.size(); ++i) {
-        countGenresPlaysUniqueNumbers[genres[i]].push_back({ plays[i], i });
-        countPlays[genres[i]] += plays[i];
+        totalPlayCount[genres[i]] += plays[i];
+        GenreCount[genres[i]].push_back({ plays[i], i });
     }
 
-    for (auto iter = countGenresPlaysUniqueNumbers.begin(); iter != countGenresPlaysUniqueNumbers.end(); ++iter) {
-        sort(iter->second.begin(), iter->second.end(), compare);
+    for (auto it = totalPlayCount.begin(); it != totalPlayCount.end(); ++it) {
+        MaxCount[it->second] = it->first;
+        Temp.push_back(it->second);
     }
 
-    vectorCountPlays.assign(countPlays.begin(), countPlays.end());
-    sort(vectorCountPlays.begin(), vectorCountPlays.end(), comp);
+    sort(Temp.rbegin(), Temp.rend());
 
-    for (int i = 0; i < vectorCountPlays.size(); ++i) {
-        string genreName = vectorCountPlays[i].first;
-        for (int j = 0; j < countGenresPlaysUniqueNumbers[genreName].size() && j < 2; ++j) {
-            answer.push_back(countGenresPlaysUniqueNumbers[genreName][j].second);
+    for (int playCount : Temp) {
+        string genreName = MaxCount[playCount];
+        sort(GenreCount[genreName].begin(), GenreCount[genreName].end(), compare);
+        if (GenreCount[genreName].size() >= 2) {
+            answer.push_back(GenreCount[genreName][0].index);
+            answer.push_back(GenreCount[genreName][1].index);
+        }
+        else {
+            answer.push_back(GenreCount[genreName][0].index);
         }
     }
 
     return answer;
+}
+
+bool compare(const Info& a, const Info& b) {
+    return a.playCount > b.playCount;
 }
