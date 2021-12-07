@@ -3,56 +3,50 @@
 #include <queue>
 #include <algorithm>
 
-#define INF 1e9
-
 using namespace std;
 
-int bfs(int n, vector<vector<int>>& graph);
+vector<vector<int>> Graph;
+vector<int> Dist;
+
+vector<int> bfs(int start, int n);
 
 int solution(int n, vector<vector<int>> edge) {
-    vector<vector<int>> graph(n + 1);
+    Graph.resize(n + 1);
+    Dist.resize(n + 1, -1);
 
     for (vector<int> e : edge) {
-        graph[e[0]].push_back(e[1]);
-        graph[e[1]].push_back(e[0]);
+        Graph[e[0]].push_back(e[1]);
+        Graph[e[1]].push_back(e[0]);
     }
 
-    int answer = bfs(n, graph);
+    vector<int> answer = bfs(1, n);
 
-    return answer;
+    return answer.size();
 }
 
-int bfs(int n, vector<vector<int>>& graph) {
-    vector<bool> visited(n + 1, false);
-    vector<int> dist(n + 1, -1);
+vector<int> bfs(int start, int n) {
+    vector<int> result;
     queue<int> q;
-    int MAX = -INF;
+    int Max = -1;
 
-    q.push(1);
-    dist[1] = 0;
-    visited[1] = true;
+    q.push(start);
+    Dist[start] = 0;
 
     while (!q.empty()) {
         int cur = q.front();
         q.pop();
 
-        for (int next : graph[cur]) {
-            if (!visited[next]) {
-                dist[next] = dist[cur] + 1;
-                visited[next] = true;
-                MAX = max(MAX, dist[next]);
-                q.push(next);
-            }
+        for (int next : Graph[cur]) {
+            if (Dist[next] != -1) continue;
+            Dist[next] = Dist[cur] + 1;
+            Max = max(Max, Dist[next]);
+            q.push(next);
         }
     }
-
-    int cnt = 0;
 
     for (int i = 1; i <= n; ++i) {
-        if (dist[i] == MAX) {
-            ++cnt;
-        }
+        if (Dist[i] == Max) result.push_back(i);
     }
 
-    return cnt;
+    return result;
 }
