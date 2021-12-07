@@ -7,48 +7,37 @@
 #include <vector>
 #include <algorithm>
 
-#define INF 1e9
-
 using namespace std;
 
-int graph[50][50] = { 0, };
+const int INF = 1e9;
+vector<vector<int>> Graph;
 
 int solution(int N, vector<vector<int> > road, int K) {
     int answer = 0;
 
+    Graph.resize(N, vector<int>(N, INF));
+
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            if (i == j) {
-                graph[i][j] = 0;
-            }
-            else {
-                graph[i][j] = INF;
-            }
+            if (i == j) Graph[i][j] = 0;
         }
     }
 
-    for (auto info : road) {
-        int a = info[0] - 1;
-        int b = info[1] - 1;
-        int cost = info[2];
-
-        graph[a][b] = min(graph[a][b], cost);
-        graph[b][a] = min(graph[b][a], cost);
+    for (vector<int> r : road) {
+        Graph[r[0] - 1][r[1] - 1] = min(Graph[r[0] - 1][r[1] - 1], r[2]);
+        Graph[r[1] - 1][r[0] - 1] = min(Graph[r[1] - 1][r[0] - 1], r[2]);
     }
 
     for (int k = 0; k < N; ++k) {
         for (int i = 0; i < N; ++i) {
             for (int j = 0; j < N; ++j) {
-                graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j]);
-                graph[j][i] = min(graph[j][i], graph[j][k] + graph[k][i]);
+                Graph[i][j] = min(Graph[i][j], Graph[i][k] + Graph[k][j]);
             }
         }
     }
 
     for (int i = 0; i < N; ++i) {
-        if (graph[0][i] <= K) {
-            ++answer;
-        }
+        if (Graph[0][i] <= K) ++answer;
     }
 
     return answer;
