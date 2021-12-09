@@ -1,42 +1,37 @@
 #include <string>
 #include <vector>
 #include <queue>
-#include <iostream>
 
 using namespace std;
 
 typedef pair<int, int> pii;
 
+queue<pii> Q;
+priority_queue<int> PQ;
+
 int solution(vector<int> priorities, int location) {
     int answer = 0;
-    bool flag = false;
-    priority_queue<int> pq;
-    queue<pii> q;
 
     for (int i = 0; i < priorities.size(); ++i) {
-        pq.push(priorities[i]);
-        q.push({ priorities[i], i });
+        Q.push({ priorities[i], i });
+        PQ.push(priorities[i]);
     }
 
-    while (!q.empty()) {
-        int priority = pq.top();
-        pii fileSequence = q.front();
+    while (!Q.empty()) {
+        int job = Q.front().first;
+        int index = Q.front().second;
+        Q.pop();
 
-        if (priority > fileSequence.first) {
-            q.push(fileSequence);
-            q.pop();
+        if (PQ.top() > job) {
+            Q.push({ job, index });
+        }
+        else if (index == location) {
+            ++answer;
+            break;
         }
         else {
-            if (fileSequence.second == location) {
-                flag = true;
-            }
-            pq.pop();
-            q.pop();
             ++answer;
-        }
-
-        if (flag) {
-            break;
+            PQ.pop();
         }
     }
 
