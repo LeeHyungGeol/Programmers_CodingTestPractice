@@ -1,44 +1,35 @@
-// Set, multiSet은 내부적으로 항상 오름차순으로 정렬한다.
-
 #include <string>
 #include <vector>
+#include <set>
 #include <sstream>
 #include <iostream>
-#include <set>
 
 using namespace std;
 
+multiset<int> MS;
+stringstream SS;
+
 vector<int> solution(vector<string> operations) {
     vector<int> answer(2, 0);
-    multiset<int> Set;
 
-    for (string op : operations) {
-        stringstream ss;
-        ss.str(op);
-        char cmd;
+    for (string operation : operations) {
+        char op;
         int num;
+        SS.clear();
+        SS.str(operation);
+        SS >> op >> num;
 
-        ss >> cmd >> num;
-
-        if (cmd == 'I') {
-            Set.insert(num);
-        }
-        else if (!Set.empty() && cmd == 'D') {
-            if (num == 1) {
-                Set.erase(--Set.end());
-            }
-            else if (num == -1) {
-                Set.erase(Set.begin());
-            }
+        if (op == 'I') MS.insert(num);
+        else if (!MS.empty() && op == 'D') {
+            if (num == 1) MS.erase(--MS.end());
+            else MS.erase(MS.begin());
         }
     }
 
-    if (Set.empty()) {
-        return answer;
-    }
-    else {
-        answer[0] = *(--Set.end());
-        answer[1] = *(Set.begin());
-    }
+    if (MS.empty()) return answer;
+
+    answer[0] = *(--MS.end());
+    answer[1] = *MS.begin();
+
     return answer;
 }
